@@ -1,0 +1,34 @@
+AssetCompress
+=============
+
+Provides handy rake tasks to compress assets using YuiCompressor.
+
+
+Usage
+=====
+
+After installing this plugin, do rake -T to view custom rake tasks added by this plugin.
+
+Javascript Compression:
+
+To compress javascript files from your public folder do...
+
+  >> rake yui:all_js_compress
+
+  Output: public/javascripts/compressed.js
+
+Above rake task recursively compress all javascript files from application public/javascripts folder.
+  
+
+Stylesheet Compression:
+
+You can compress all stylesheet files using following command...
+
+  >> yui:all_css_compress
+
+  Output: public/stylesheets/compressed.css
+
+
+
+
+Copyright (c) 2011 Raghu Ram G, released under the MIT license
